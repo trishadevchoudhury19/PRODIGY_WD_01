@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym-web</title>
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <style>
+        /* .container3{
+            display: flex;
+            justify-content: center;
+            font-size: 30px;
+            font-weight: normal;
+        } */
+
+        .container3 h2{
+            font-weight: normal;
+            margin-top: 1vh;
+            font-size: 30px;
+            margin-left:  58vh;
+        }
+
+        .container3 p{
+            margin-left:  58vh;
+            font-size: 40px;
+            padding-right: 30vh;
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.05);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+        .animate-pulse {
+            animation: pulse 2s ease-in-out infinite;
+        }
+
+        .container4 img{
+            width:80px;
+            height:80px;
+        }
+    </style>
+    <header class="header">
+        <!-- Left box for logo -->
+        <div class="left">
+            <img src="img/logo.webp" alt="">
+            <div>Fitness club</div>
+        </div>
+        <!-- Mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="About.html">About Us</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="facilty.html">Facilities</a></li>
+            </ul>
+        </div>
+
+        <!-- Right box for buttons -->
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <h1 class="animate-pulse" style="margin-left: 71vh; margin-top:10vh;font-size:60px;">Welcome to Our Gym</h1>
+    <section class="hero">
+        <div class="container3">
+            <h2>Lets transform your Body and transform Your Life together...</h2>
+            <p>At Our Gym, we're dedicated to helping you achieve your fitness goals and live a healthier, happier life. 
+            With state-of-the-art facilities, expert trainers, and a supportive community, you'll have everything you need to succeed.</p>
+           <p> <a href="facilty.html" class="cta-btn">Explore Our facilities</a></p>
+        </div>
+    </section>
+</body>
+</html>
